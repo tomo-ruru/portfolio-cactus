@@ -86,7 +86,7 @@ img:not([alt]) {
 
 // 変数
 $bp:835px;
-$main-font:Playfair Display,Regular;
+$main-font:"Playfair Display",Regular;
 $sub-font:Ubuntu,Light;
 $font-color:#626262;
 $font-color-light:#b4ad9e;
@@ -208,7 +208,7 @@ main{
   .mv{
     width:88.33%;
     margin:0 auto; 
-    animation: main-visual 3s linear 0s 1 normal forwards running;
+    animation: main-visual 3s linear 0s 1 normal;
     @keyframes main-visual{
       0% {
         filter: grayscale(100%) blur(5px);
@@ -579,7 +579,6 @@ main{
     font-weight:bold;
   } 
   .comment-txt{
-    font-weight:Regular;
     padding-top:17px;
   }
   .reply{
@@ -739,7 +738,7 @@ main{
           color:$font-color;
         }
         &:visited{
-          columns: $font-color;
+          color: $font-color;
         }
         .fab{
           transition: all 0.3s ease 0s;
