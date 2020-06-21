@@ -36,7 +36,6 @@ html {
 /* Set core body defaults */
 body {
   min-height: 100vh;
-  text-rendering: optimizeSpeed;
   line-height: 1.5;
 }
 
@@ -44,11 +43,6 @@ body {
 ul[class],
 ol[class] {
   list-style: none;
-}
-
-/* A elements that don't have a class get default styles */
-a:not([class]) {
-  text-decoration-skip-ink: auto;
 }
 
 /* Make images easier to work with */
@@ -102,7 +96,7 @@ body {
   width: 88.33%;
   height: 140px;
   margin: 0 auto;
-  font-family: Playfair Display, Regular;
+  font-family: "Playfair Display", Regular;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -151,7 +145,6 @@ body {
   width: 0;
   height: 1px;
   background: #626262;
-  -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
 
@@ -172,7 +165,7 @@ body {
     width: 92%;
     height: 50px;
     margin: 0 auto;
-    font-family: Playfair Display, Regular;
+    font-family: "Playfair Display", Regular;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -230,8 +223,7 @@ main {
 main .mv {
   width: 88.33%;
   margin: 0 auto;
-  -webkit-animation: main-visual 3s linear 0s 1 normal forwards running;
-          animation: main-visual 3s linear 0s 1 normal forwards running;
+  animation: main-visual 3s linear 0s 1 normal forwards running;
 }
 
 @-webkit-keyframes main-visual {
@@ -301,7 +293,7 @@ main .mv {
 
 .main-article {
   width: 62.26%;
-  font-family: Playfair Display, Regular;
+  font-family: "Playfair Display", Regular;
   color: #626262;
 }
 
@@ -437,7 +429,7 @@ main .mv {
 .sideber {
   width: 25.47%;
   margin-left: 4.52%;
-  font-family: Playfair Display, Regular;
+  font-family: "Playfair Display", Regular;
   color: #626262;
 }
 
@@ -508,7 +500,7 @@ main .mv {
 }
 
 .top-posts .top-posts-list .comments-count {
-  font-family: Ubuntu, Light;
+  font-family:Ubuntu, Light;
   font-size: 12px;
   color: #b4ad9e;
   padding-top: 9px;
@@ -531,7 +523,7 @@ main .mv {
 }
 
 .related-container .section-title {
-  font-family: Ubuntu, Light;
+  font-family:Ubuntu, Light;
   color: #b4ad9e;
   font-weight: lighter;
 }
@@ -574,7 +566,7 @@ main .mv {
 
 .contents .related-txt {
   font-size: 20px;
-  font-family: Playfair Display, Regular;
+  font-family:"Playfair Display", Regular;
   padding: 24px 0 94px 0;
   color: #626262;
 }
@@ -587,7 +579,7 @@ main .mv {
     width: 100%;
   }
   .contents .related-txt {
-    font-family: Playfair Display, Regular;
+    font-family:"Playfair Display", Regular;
     padding: 10px 0 50px 0;
   }
 }
@@ -664,7 +656,7 @@ main .mv {
 
 .txt-wrap {
   margin-left: 3.88%;
-  font-family: Playfair Display, Regular;
+  font-family:"Playfair Display", Regular;
   color: #626262;
   margin-top: 0;
   font-size: 14px;
@@ -676,12 +668,11 @@ main .mv {
 }
 
 .txt-wrap .comment-txt {
-  font-weight: Regular;
   padding-top: 17px;
 }
 
 .txt-wrap .reply {
-  font-family: Ubuntu, Light;
+  font-family:Ubuntu, Light;
   color: #c8c8c8;
   padding-top: 38px;
 }
@@ -725,7 +716,7 @@ main .mv {
   width: 86.77%;
   height: 71px;
   padding-left: 4.41%;
-  font-family: Ubuntu, Light;
+  font-family:Ubuntu, Light;
   color: #c8c8c8;
   font-size: 14px;
 }
@@ -771,14 +762,12 @@ main .mv {
 }
 
 .connect .sns-list .sns-icon .fab {
-  -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
 
 .connect .sns-list .sns-icon .fab:hover {
   color: #aba1ec;
-  -webkit-transform: translateY(-3px);
-          transform: translateY(-3px);
+  transform: translateY(-3px);
 }
 
 @media (max-width: 835px) {
@@ -839,7 +828,7 @@ main .mv {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: Playfair Display, Regular;
+  font-family:"Playfair Display", Regular;
   font-size: 14px;
   line-height: 97px;
 }
@@ -876,8 +865,7 @@ main .mv {
 }
 
 .footer-right .footer-sns .sns-icon:visited {
-  -webkit-columns: #626262;
-          columns: #626262;
+  color: #626262;
 }
 
 .footer-right .footer-sns .sns-icon .fab {
@@ -887,8 +875,7 @@ main .mv {
 
 .footer-right .footer-sns .sns-icon .fab:hover {
   color: #ad988e;
-  -webkit-transform: translateY(-3px);
-          transform: translateY(-3px);
+  transform: translateY(-3px);
 }
 
 @media (max-width: 835px) {
